@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="asana.inotes.MainActivity">
+
+    <item
+        android:id="@+id/action_search"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_checklist"
+        android:orderInCategory="100"
+        android:title="checklist"
+        android:icon="@drawable/ic_checklist"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_notes"
+        android:orderInCategory="100"
+        android:title="notes"
+        android:icon="@drawable/ic_notes"
+        app:showAsAction="always"
+        android:visible="false"/>
+
+</menu>
